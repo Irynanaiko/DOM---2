@@ -1,0 +1,36 @@
+.modal {
+    width: 400px;
+    background-color: beige;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid rgb(203, 203, 238);
+}
+
+.modal-body {
+    text-align: center;
+    border-bottom: 2px solid rgb(203, 203, 238);
+}
+    
+.modal-footer {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: rgb(203, 203, 238);
+    border-radius: 3px;
+    cursor: pointer;
+}
